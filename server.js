@@ -214,7 +214,7 @@ io.sockets.on('connection', function(socket) {
                     io.sockets.adapter.rooms['room-' + socket.roomnum].currPlayer = 0
                     // Default video
                     io.sockets.adapter.rooms['room-' + socket.roomnum].currVideo = {
-                        yt: 'M7lc1UVf-VE',
+                        yt: 'nl0KrFAMhGg',
                         dm: 'x26m1j4',
                         vimeo: '76979871',
                         html5: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
