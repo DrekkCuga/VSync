@@ -15,11 +15,11 @@ rooms = [];
 // Store all of the sockets and their respective room numbers
 userrooms = {}
 
-YT3_API_KEY = "AIzaSyCEc0w2faZFftIynhOfjUSW8YIQDFPBMkI";
+YT3_API_KEY = process.env.YT_API_KEY;
 DM_API_KEY = process.env.DM_API_KEY;
 
 var keepVsyncAlive = true;
-var pageLink = "https://vsync.vk3mag.net/";
+var pageLink = process.env.URL;
 
 // Set given room for url parameter
 var given_room = ""
